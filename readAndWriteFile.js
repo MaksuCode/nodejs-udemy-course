@@ -24,7 +24,3 @@ fs.readFile("./txt/start.txt", "utf8", (err, data1) => {
     });
   });
 });
-
-fs.readFile("./txt/star2.txt", "utf8", (err, data1) => {
-  if (err) return console.log(err);
-});
